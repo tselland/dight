@@ -1,0 +1,54 @@
+.section {
+
+}
+
+.article {
+
+}
+
+.green {
+    background-color: #236A62;
+}
+
+.blue {
+    background-color: #2D4571;
+    color: #FFEFAA;
+    padding: 15px 0 15px 0;
+}
+
+img.icon_square {
+    width: 40px;
+    margin-right: 20px;
+}
+
+footer {
+    padding: 30px 0 10px 0;
+    background-color: #AA9539;
+    color: #051838;
+}
+
+ul {
+    list-style-type: none;
+}
+
+aside {
+    display: flex;
+    margin: 0 15px 0 15px;
+    flex-grow: 1;
+    flex-direction:column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.article_main {
+    flex-grow: 4;
+}
+.img_container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
