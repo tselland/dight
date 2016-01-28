@@ -17,9 +17,11 @@ header {
   padding: 15px 0 15px 0; }
 
 .logo {
-  align-self: flex-start; }
+  align-self: flex-start; 
+  margin: 20px;
+}
   .logo img {
-    height: 50px; }
+    height: 100px; }
 
 .flex_nav {
   background-color: #2098d1; }
