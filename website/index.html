@@ -13,23 +13,32 @@
 
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/basic.css">
 
 </head>
 <body>
-<header class="blue">
-    <h1>Home</h1>
-    <nav>
+<header class="home_header">
+    <nav class="flex_nav">
+        <section class="logo">
+            <a href="index.html"><img src="img/logo2.png" alt="Travis Selland Logo"></a>
+        </section>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="adventures.html">Adventures</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="favorites.html">Favorites</a></li>
-            <li><a href="resume.html">Resume</a></li>
+            <li><a href="index.html" class="nav_link nav_active">Home</a></li>
+            <li><a href="about.html" class="nav_link">About Me</a></li>
+            <li><a href="projects.html" class="nav_link">Projects</a></li>
+            <li><a href="adventures.html" class="nav_link">Adventures</a></li>
+            <li><a href="contact.html" class="nav_link">Contact</a></li>
+            <li><a href="favorites.html" class="nav_link">Favorites</a></li>
+            <li><a href="resume.html" class="nav_link">Resume</a></li>
         </ul>
     </nav>
+
+
+    <h1>Travis Selland</h1>
+    <p class="tagline">
+        Student. Techie. Adventurer.
+    </p>
+
 
 </header>
 
@@ -76,6 +85,29 @@
     </article>
 </main>
 <footer>
+    <article class="footer_column">
+        <div class="footer_block">
+            <h3 class="footer_h4">Short Bio Here</h3>
+            <img src="http://placehold.it/50x50" alt="Travis Selland"><p>Talk about my bio here</p>
+        </div>
+        <div class="footer_block">
+            <h3 class="footer_h4">Social Media here</h3>
+            <img src="http://placehold.it/20x20" alt="Travis Selland"><p>Reasons to follow me on twitter</p>
+            <img src="http://placehold.it/20x20" alt="Travis Selland"><p>Reasons to follow me on github</p>
+        </div>
+        <div class="footer_block">
+            <h3 class="footer_h4">Navigation Links</h3>
+            <ul>
+                <li><a href="index.html" class="footer_link">Home</a> to view the homepage</li>
+                <li><a href="about.html" class="footer_link">About Me</a> to read more about my life</li>
+                <li><a href="projects.html" class="footer_link">Projects</a></li>
+                <li><a href="adventures.html" class="footer_link">Adventures</a></li>
+                <li><a href="contact.html" class="footer_link">Contact</a></li>
+                <li><a href="favorites.html" class="footer_link">Favorites</a></li>
+                <li><a href="resume.html" class="footer_link">Resume</a></li>
+            </ul>
+        </div>
+    </article>
     <p>&copy; 2016 | Travis Selland</p>
 </footer>
 

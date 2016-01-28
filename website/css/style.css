@@ -3,6 +3,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    background-color: #f9f9f9;
 }
 
 .green {
@@ -10,7 +11,7 @@ body {
 }
 
 .blue {
-    background-color: #2D4571;
+    background-color: #2098d1;
     color: #FFEFAA;
     padding: 15px 0 15px 0;
 }
@@ -75,11 +76,11 @@ nav ul li:hover {
 
 }
 
-nav>a {
+nav a {
     color: #051838;
 }
 
-nav.a :hover {
+nav a:hover {
     background-color: #236A62;
 }
 
