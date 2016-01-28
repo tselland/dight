@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1e214a0-29eb-4dda-927d-4c43f159b7ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/css/basic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/nav.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/architecture.jpg" afterPath="$PROJECT_DIR$/img/architecture.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/architecture_thumb.jpg" afterPath="$PROJECT_DIR$/img/architecture_thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/bike.jpg" afterPath="$PROJECT_DIR$/img/bike.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/bike_thumb.jpg" afterPath="$PROJECT_DIR$/img/bike_thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/dog.jpg" afterPath="$PROJECT_DIR$/img/dog.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/dog_thumb.jpg" afterPath="$PROJECT_DIR$/img/dog_thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/ggbridge.jpg" afterPath="$PROJECT_DIR$/img/ggbridge.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/ggbridge_thumb.jpg" afterPath="$PROJECT_DIR$/img/ggbridge_thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/time.jpg" afterPath="$PROJECT_DIR$/img/time.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/time_thumb.jpg" afterPath="$PROJECT_DIR$/img/time_thumb.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/logo.ico" afterPath="$PROJECT_DIR$/website/img/logo.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/logo2.png" afterPath="$PROJECT_DIR$/website/img/logo2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutme.html" afterPath="$PROJECT_DIR$/aboutme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/about.html" afterPath="$PROJECT_DIR$/website/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/adventures.html" afterPath="$PROJECT_DIR$/website/adventures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/contact.html" afterPath="$PROJECT_DIR$/website/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/style.css" afterPath="$PROJECT_DIR$/website/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/favorites.html" afterPath="$PROJECT_DIR$/website/favorites.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/basic" afterPath="$PROJECT_DIR$/website/css/basic" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/index.html" afterPath="$PROJECT_DIR$/website/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/projects.html" afterPath="$PROJECT_DIR$/website/projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/resume.html" afterPath="$PROJECT_DIR$/website/resume.html" />
     </list>
     <ignored path="dight.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +39,8 @@
       <file leaf-file-name="basic" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/css/basic">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9564586">
-              <caret line="174" column="17" selection-start-line="174" selection-start-column="17" selection-end-line="174" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.80406386">
+              <caret line="177" column="19" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -98,10 +73,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.875">
-              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+            <state vertical-scroll-proportion="-15.0">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding>
-                <marker date="1453995549000" expanded="true" signature="199:213" placeholder="..." />
+                <marker date="1453998547000" expanded="true" signature="199:213" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -147,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/website/css/basic.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -179,8 +154,8 @@
         <option value="$PROJECT_DIR$/website/projects.html" />
         <option value="$PROJECT_DIR$/website/contact.html" />
         <option value="$PROJECT_DIR$/website/resume.html" />
-        <option value="$PROJECT_DIR$/website/index.html" />
         <option value="$PROJECT_DIR$/website/about.html" />
+        <option value="$PROJECT_DIR$/website/index.html" />
         <option value="$PROJECT_DIR$/website/css/basic" />
       </list>
     </option>
@@ -496,7 +471,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
-            <marker date="1453995549000" expanded="true" signature="199:213" placeholder="..." />
+            <marker date="1453998547000" expanded="true" signature="199:213" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -578,7 +553,7 @@
     <entry file="file://$PROJECT_DIR$/website/css/basic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -648,10 +623,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
           <folding>
-            <marker date="1453995549000" expanded="true" signature="199:213" placeholder="..." />
+            <marker date="1453998547000" expanded="true" signature="199:213" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -668,8 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/css/basic">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9564586">
-          <caret line="174" column="17" selection-start-line="174" selection-start-column="17" selection-end-line="174" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.80406386">
+          <caret line="177" column="19" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="19" />
           <folding />
         </state>
       </provider>

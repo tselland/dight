@@ -153,6 +153,9 @@ h1
   font: 3em
   text-align: center
 
+.toggle_nav
+  display: none
+
 
 @media all and (max-width: 1000px)
   .flex_nav
@@ -171,7 +174,15 @@ h1
     li
       flex-basis: 100%
 
+    ul
+      display: none
+
   .home_header
     min-height: 100px
+
+  .toggle_nav
+    display: block
+
+  .
 
 
