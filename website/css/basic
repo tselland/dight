@@ -183,6 +183,7 @@ h1
   .toggle_nav
     display: block
 
-  .
+  .EXTRA_CLASS
+    display: block
 
 
