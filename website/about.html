@@ -10,6 +10,17 @@
     <![endif]-->
 
     <script src="js/script.js"></script>
+    <script src="js/instafeed.min.js"></script>
+
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'user',
+            userId: '190348201',
+            accessToken: '190348201.039668a.aa1d78f347db4bdfad92e69b6958cbe4',
+            limit: '15'
+        });
+        feed.run();
+    </script>
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
@@ -22,15 +33,15 @@
 <header>
 
     <nav class="flex_nav">
-		<section class="logo">
+		<div class="logo">
             <a href="index.html"><img src="img/logo2.png" alt="Travis Selland Logo"></a>
-        </section>
+        </div>
         <a href="#" class="toggle_nav">Menu</a>
         <ul>
             <li><a href="index.html" class="nav_link">Home</a></li>
-            <li><a href="about.html" class="nav_link nav_active">About Me</a></li>
+            <li><a href="about.html" class="nav_link nav_active">About</a></li>
             <li><a href="adventures.html" class="nav_link">Adventures</a></li>
-            <li><a href="projects.html" class="nav_link">Projects</a></li>
+            <li><a href="portfolio.html" class="nav_link">Portfolio</a></li>
             <li><a href="favorites.html" class="nav_link">Favorites</a></li>
             <li><a href="resume.html" class="nav_link">Resume</a></li>
             <li><a href="contact.html" class="nav_link">Contact</a></li>
@@ -88,8 +99,11 @@
         <h3>My Hobbies</h3>
         I love playing sports, and am grateful to have been able to play so many both competitively and recreationally. I played volleyball and soccer in high school, and in college I have played intramurals including wallyball, intertube waterpolo, ultimate frisbee, kickball,and flag football. I enjoy hiking with my father and my wife. I have climbed Yosemite's Half Dome, Mt. Whitney in central California, and am looking forward to making the trek to the top of Mt. Timpanogos in Utah. I was a part of my high school choir, and I continue to sing, if only in the car. I have also participated in a couple running races and hope to do more. You can read more about my hobbies and adventures in the Adventures section.
         <h3>My Family</h3>
-        My wife and I met in our Freshman biology class in high school. We were good friends for a few years before we started dating towards the end of our Junior year. We parted ways for college; she studied psychology and ran on the track team at UC San Diego while I began my studies at Brigham Young University. We continued our relationship at a distance until we were married in May 2013. She is now attending BYU as a graduate student in Marriage and Family Therapy; she is also working towards a minor in Nonprofit Management in the Marriott School of Management.
+        My wife and I met in our Freshman biology class in high school. We were good friends for a few years before we started dating towards the end of our Junior year. We parted ways for college; she studied psychology and ran on the track team at UC San Diego while I began my studies at Brigham Young University. We continued our relationship at a distance until we were married in May 2013. She is now attending BYU as a graduate student in Marriage and Family Therapy.
     </article>
+    <h3>A look into my life</h3>
+    <div id="instafeed"></div>
+
 </main>
 <a href="adventures.html" class="next_page_link">MY ADVENTURES <i class="fa fa-chevron-circle-right"></i></a>
 
@@ -109,7 +123,7 @@
             <ul>
                 <li><a href="index.html" class="footer_link">Home</a> to view the homepage</li>
                 <li><a href="about.html" class="footer_link">About Me</a> to read more about my life</li>
-                <li><a href="projects.html" class="footer_link">Projects</a></li>
+                <li><a href="portfolio.html" class="footer_link">Projects</a></li>
                 <li><a href="adventures.html" class="footer_link">Adventures</a></li>
 
                 <li><a href="favorites.html" class="footer_link">Favorites</a></li>

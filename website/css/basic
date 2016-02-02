@@ -1,4 +1,11 @@
 $main_color: #2098d1
+$hover_color: #016e98
+$background1: #262626
+$background2: #595959
+$background3: #333333
+$background4: #808080
+$background5: #1a1a1a
+
 
 
 /* GENERAL STYLES */
@@ -49,9 +56,7 @@ table
     padding-right: 1em
 
 input
-  appearance: none
   box-shadow: none
-  border-radius: none
   width: 10em
   padding: 10px
   border: solid 1px #dcdcdc
@@ -73,6 +78,7 @@ footer
 /* NAVIGATION */
 .logo
   align-self: flex-start
+  padding: 20px 0 0 20px
 
   img
     height: 50px
@@ -83,6 +89,7 @@ footer
   ul
     display: flex
     justify-content: flex-end
+
 
   li
     padding: 10px
@@ -102,6 +109,12 @@ footer
 
 .toggle_nav
   display: none
+  text-align: center
+  color: #ffffff
+  padding: 5px 10px 5px 10px
+  border: 2px solid #ffffff
+  max-width: 100px
+  justify-content: center
 
 
 .icon_square
@@ -135,22 +148,26 @@ footer
   text-align: center
 
 .home_block:hover
-  background-color: $main_color
+  background-color: lighten($background1, 20%)
 
 .home_about
-  background-color: #262626
+  background-color: $background1
 .home_projects
-  background-color: #595959
+  background-color: $background2
 .home_adventures
-  background-color: #333333
+  background-color: $background3
 .home_favorites
-  background-color: #808080
+  background-color: $background4
 .home_experience
-  background-color: #1a1a1a
+  background-color: $background5
 
 .home_header
   height: 85vh
   min-height: 400px
+  display: flex
+  flex-direction: column
+  align-content: flex-end
+
 .tagline
   font: 3em
   text-align: center
@@ -203,11 +220,11 @@ blockquote::before
   text-align: center
   margin: 0
   color: #ffffff
-
+  padding-top: 15px
 
 
 .next_page_link:hover
-  background-color: #016e98
+  background-color: $hover_color
 
 
 /* FOOTER */
@@ -263,37 +280,52 @@ blockquote::before
 
 
 /* MEDIA STYLES */
-@media all and (max-width: 1000px)
+@media all and (max-width: 900px)
+
+
+  .home_header
+    min-height: 350px
+
+    *
+      order: 1
+
   .flex_nav
+    order: 3
     ul
       flex-wrap: wrap
 
     li
       flex: 1 1 50%
-
-  .home_header
-    min-height: 200px
-
+      text-align: center
 
   .home_quote_content
     flex: 6
 
+  .logo
+    padding: 0
+    align-self: center
 
 @media all and (max-width: 500px)
   .flex_nav
+    align-content: center
     li
       flex-basis: 100%
 
     ul
       display: none
 
+
   .home_header
-    min-height: 100px
+    min-height: 275px
+    height: 50vh
 
   .toggle_nav
     display: block
 
   .home_quote_padding
     display: none
+
+
+
 
 

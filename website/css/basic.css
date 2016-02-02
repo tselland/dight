@@ -46,9 +46,7 @@ table {
     padding-right: 1em; }
 
 input {
-  appearance: none;
   box-shadow: none;
-  border-radius: none;
   width: 10em;
   padding: 10px;
   border: solid 1px #dcdcdc;
@@ -67,7 +65,8 @@ footer {
 
 /* NAVIGATION */
 .logo {
-  align-self: flex-start; }
+  align-self: flex-start;
+  padding: 20px 0 0 20px; }
   .logo img {
     height: 50px; }
 
@@ -92,7 +91,13 @@ footer {
   border-bottom: 2px solid #ffffff; }
 
 .toggle_nav {
-  display: none; }
+  display: none;
+  text-align: center;
+  color: #ffffff;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid #ffffff;
+  max-width: 100px;
+  justify-content: center; }
 
 .icon_square {
   width: 40px;
@@ -120,7 +125,7 @@ footer {
   text-align: center; }
 
 .home_block:hover {
-  background-color: #2098d1; }
+  background-color: #595959; }
 
 .home_about {
   background-color: #262626; }
@@ -139,7 +144,10 @@ footer {
 
 .home_header {
   height: 85vh;
-  min-height: 400px; }
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end; }
 
 .tagline {
   font: 3em;
@@ -184,7 +192,8 @@ blockquote::before {
   height: 50px;
   text-align: center;
   margin: 0;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-top: 15px; }
 
 .next_page_link:hover {
   background-color: #016e98; }
@@ -238,25 +247,37 @@ blockquote::before {
   right: 0; }
 
 /* MEDIA STYLES */
-@media all and (max-width: 1000px) {
-  .flex_nav ul {
-    flex-wrap: wrap; }
-  .flex_nav li {
-    flex: 1 1 50%; }
-
+@media all and (max-width: 900px) {
   .home_header {
-    min-height: 200px; }
+    min-height: 350px; }
+    .home_header * {
+      order: 1; }
+
+  .flex_nav {
+    order: 3; }
+    .flex_nav ul {
+      flex-wrap: wrap; }
+    .flex_nav li {
+      flex: 1 1 50%;
+      text-align: center; }
 
   .home_quote_content {
-    flex: 6; } }
+    flex: 6; }
+
+  .logo {
+    padding: 0;
+    align-self: center; } }
 @media all and (max-width: 500px) {
-  .flex_nav li {
-    flex-basis: 100%; }
-  .flex_nav ul {
-    display: none; }
+  .flex_nav {
+    align-content: center; }
+    .flex_nav li {
+      flex-basis: 100%; }
+    .flex_nav ul {
+      display: none; }
 
   .home_header {
-    min-height: 100px; }
+    min-height: 275px;
+    height: 50vh; }
 
   .toggle_nav {
     display: block; }
