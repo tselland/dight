@@ -7,16 +7,25 @@
 		<!-- Here's where you put your CSS rules. -->
 		<style>
 			/* I've added a rule for you. */
-			
+			@font-face {
+                font-family: 'Montserrat';
+                src: url('Montserrat-Regular.ttf');
+            }
+
 			body {
-				margin: 2vw;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
 			}
+
 
 
 			h1 {
 				font-weight: bold;
 				font-size: 42pt;
-				font-family: arial, sans-serif;
+				font-family: Montserrat, Arial, sans-serif;
 			}
 			
 			
@@ -38,7 +47,7 @@
 				list-style-type: decimal;
 				list-style-position: inside;
 				line-height: 1.5;
-				margin-left: 20px;
+				margin: 20px 0 0 20px;
 			}
 			
 			
@@ -52,129 +61,150 @@
 			}
 
 			.scripture_text {
-				width: 400px;
+                text-align: left;
 			}
 			
-			/* I used <em> to mark "clarity words." These are words that did not exist in the original Hebrew or Greek, but are necessary in English. They are normally italicized in print editions of the King James Bible. */
+			/* I used <span class="clarityWord"> to mark "clarity words." These are words that did not exist in the original Hebrew or Greek, but are necessary in English. They are normally italicized in print editions of the King James Bible. */
 			
-			em {
+			.clarityWord {
 				font-style: italic;
 				font-weight: bold;
 				color: #707070;
 			}
+
+			.favorite {
+                background-color: lightgreen;
+                border-radius: 3px;
+                margin: 0 15px 0 -15px;
+                padding: 0 15px 5px 15px;
+            }
+
+            .chapter_summary {
+                background-color: #f2f2f2;
+                text-align: center;
+                max-width: 600px;
+
+
+            }
+            main {
+                max-width: 650px;
+            }
 		
 			
 		</style>
 	</head>
 	<body>
-		<div id="preh1">
-			The gospel According to 
-		</div>
-		<h1>St. Matthew</h1>
-		<div class="scripture_text">
-		<h2>Chapter 5</h2>
+        <main>
+            <div id="preh1">
+                The gospel According to
+            </div>
+            <h1>St. Matthew</h1>
+            <div class="chapter_heading">
+                <h2>Chapter 5</h2>
+                <p class="chapter_summary">Jesus preaches the Sermon on the Mount—Its teachings replace and transcend some aspects of the law of Moses—All are commanded to be perfect like their Father in Heaven.</p>
+            </div>
 
-		<p>Jesus preaches the Sermon on the Mount—Its teachings replace and transcend some aspects of the law of Moses—All are commanded to be perfect like their Father in Heaven.</p>
+            <div class="scripture_text">
+                <ol>
 
-		<ol>
+                    <li>And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him:</li>
 
-			<li>And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him:</li> 
+                    <li>And he opened his mouth, and taught them, saying,</li>
 
-			<li>And he opened his mouth, and taught them, saying,</li> 
+                    <li>Blessed <span class="clarityWord">are</span> the poor in spirit: for theirs is the kingdom of heaven.</li>
 
-			<li>Blessed <em>are</em> the poor in spirit: for theirs is the kingdom of heaven.</li> 
+                    <li>Blessed <span class="clarityWord">are</span> they that mourn: for they shall be comforted.</li>
 
-			<li>Blessed <em>are</em> they that mourn: for they shall be comforted.</li> 
+                    <li>Blessed <span class="clarityWord">are</span> the meek: for they shall inherit the earth.</li>
 
-			<li>Blessed <em>are</em> the meek: for they shall inherit the earth.</li> 
+                    <li>Blessed <span class="clarityWord">are</span> they which do hunger and thirst after righteousness: for they shall be filled.</li>
 
-			<li>Blessed <em>are</em> they which do hunger and thirst after righteousness: for they shall be filled.</li> 
+                    <li>Blessed <span class="clarityWord">are</span> the merciful: for they shall obtain mercy.</li>
 
-			<li>Blessed <em>are</em> the merciful: for they shall obtain mercy.</li> 
+                    <li>Blessed <span class="clarityWord">are</span> the pure in heart: for they shall see God.</li>
 
-			<li>Blessed <em>are</em> the pure in heart: for they shall see God.</li> 
+                    <li>Blessed <span class="clarityWord">are</span> the peacemakers: for they shall be called the children of God.</li>
 
-			<li>Blessed <em>are</em> the peacemakers: for they shall be called the children of God.</li> 
+                    <li>Blessed <span class="clarityWord">are</span> they which are persecuted for righteousness’ sake: for theirs is the kingdom of heaven.</li>
 
-			<li>Blessed <em>are</em> they which are persecuted for righteousness’ sake: for theirs is the kingdom of heaven.</li> 
+                    <li>Blessed are ye, when <span class="clarityWord">men</span> shall revile you, and persecute <span class="clarityWord">you,</span> and shall say all manner of evil against you falsely, for my sake.</li>
 
-			<li>Blessed are ye, when <em>men</em> shall revile you, and persecute <em>you,</em> and shall say all manner of evil against you falsely, for my sake.</li> 
+                    <li>Rejoice, and be exceeding glad: for great <span class="clarityWord">is</span> your reward in heaven: for so persecuted they the prophets which were before you.</li>
 
-			<li>Rejoice, and be exceeding glad: for great <em>is</em> your reward in heaven: for so persecuted they the prophets which were before you.</li> 
+                    <li class="favorite">¶Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men.</li>
 
-			<li>¶Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men.</li> 
+                    <li class="favorite">Ye are the light of the world. A city that is set on an hill cannot be hid.</li>
 
-			<li>Ye are the light of the world. A city that is set on an hill cannot be hid.</li> 
+                    <li>Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house.</li>
 
-			<li>Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house.</li> 
+                    <li>Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.</li>
 
-			<li>Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.</li> 
+                    <li>¶Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil.</li>
 
-			<li>¶Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil.</li> 
+                    <li>For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.</li>
 
-			<li>For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.</li> 
+                    <li>Whosoever therefore shall break one of these least commandments, and shall teach men so, he shall be called the least in the kingdom of heaven: but whosoever shall do and teach <span class="clarityWord">them,</span> the same shall be called great in the kingdom of heaven.</li>
 
-			<li>Whosoever therefore shall break one of these least commandments, and shall teach men so, he shall be called the least in the kingdom of heaven: but whosoever shall do and teach <em>them,</em> the same shall be called great in the kingdom of heaven.</li> 
+                    <li>For I say unto you, That except your righteousness shall exceed <span class="clarityWord">the righteousness</span> of the scribes and Pharisees, ye shall in no case enter into the kingdom of heaven.</li>
 
-			<li>For I say unto you, That except your righteousness shall exceed <em>the righteousness</em> of the scribes and Pharisees, ye shall in no case enter into the kingdom of heaven.</li> 
+                    <li>¶Ye have heard that it was said by them of old time, Thou shalt not kill; and whosoever shall kill shall be in danger of the judgment:</li>
 
-			<li>¶Ye have heard that it was said by them of old time, Thou shalt not kill; and whosoever shall kill shall be in danger of the judgment:</li> 
+                    <li>But I say unto you, That whosoever is angry with his brother without a cause shall be in danger of the judgment: and whosoever shall say to his brother, Raca, shall be in danger of the council: but whosoever shall say, Thou fool, shall be in danger of hell fire.</li>
 
-			<li>But I say unto you, That whosoever is angry with his brother without a cause shall be in danger of the judgment: and whosoever shall say to his brother, Raca, shall be in danger of the council: but whosoever shall say, Thou fool, shall be in danger of hell fire.</li> 
+                    <li>Therefore if thou bring thy gift to the altar, and there rememberest that thy brother hath ought against thee;</li>
 
-			<li>Therefore if thou bring thy gift to the altar, and there rememberest that thy brother hath ought against thee;</li> 
+                    <li>Leave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift.</li>
 
-			<li>Leave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift.</li> 
+                    <li>Agree with thine adversary quickly, whiles thou art in the way with him; lest at any time the adversary deliver thee to the judge, and the judge deliver thee to the officer, and thou be cast into prison.</li>
 
-			<li>Agree with thine adversary quickly, whiles thou art in the way with him; lest at any time the adversary deliver thee to the judge, and the judge deliver thee to the officer, and thou be cast into prison.</li> 
+                    <li>Verily I say unto thee, Thou shalt by no means come out thence, till thou hast paid the uttermost farthing.</li>
 
-			<li>Verily I say unto thee, Thou shalt by no means come out thence, till thou hast paid the uttermost farthing.</li> 
+                    <li>¶Ye have heard that it was said by them of old time, Thou shalt not commit adultery:</li>
 
-			<li>¶Ye have heard that it was said by them of old time, Thou shalt not commit adultery:</li> 
+                    <li>But I say unto you, That whosoever looketh on a woman to lust after her hath committed adultery with her already in his heart.</li>
 
-			<li>But I say unto you, That whosoever looketh on a woman to lust after her hath committed adultery with her already in his heart.</li> 
+                    <li>And if thy right eye offend thee, pluck it out, and cast <span class="clarityWord">it</span> from thee: for it is profitable for thee that one of thy members should perish, and not <span class="clarityWord">that</span> thy whole body should be cast into hell.</li>
 
-			<li>And if thy right eye offend thee, pluck it out, and cast <em>it</em> from thee: for it is profitable for thee that one of thy members should perish, and not <em>that</em> thy whole body should be cast into hell.</li> 
+                    <li>And if thy right hand offend thee, cut it off, and cast <span class="clarityWord">it</span> from thee: for it is profitable for thee that one of thy members should perish, and not <span class="clarityWord">that</span> thy whole body should be cast into hell.</li>
 
-			<li>And if thy right hand offend thee, cut it off, and cast <em>it</em> from thee: for it is profitable for thee that one of thy members should perish, and not <em>that</em> thy whole body should be cast into hell.</li> 
+                    <li>It hath been said, Whosoever shall put away his wife, let him give her a writing of divorcement:</li>
 
-			<li>It hath been said, Whosoever shall put away his wife, let him give her a writing of divorcement:</li> 
+                    <li>But I say unto you, That whosoever shall put away his wife, saving for the cause of fornication, causeth her to commit adultery: and whosoever shall marry her that is divorced committeth adultery.</li>
 
-			<li>But I say unto you, That whosoever shall put away his wife, saving for the cause of fornication, causeth her to commit adultery: and whosoever shall marry her that is divorced committeth adultery.</li> 
+                    <li>¶Again, ye have heard that it hath been said by them of old time, Thou shalt not forswear thyself, but shalt perform unto the Lord thine oaths:</li>
 
-			<li>¶Again, ye have heard that it hath been said by them of old time, Thou shalt not forswear thyself, but shalt perform unto the Lord thine oaths:</li> 
+                    <li>But I say unto you, Swear not at all; neither by heaven; for it is God’s throne:</li>
 
-			<li>But I say unto you, Swear not at all; neither by heaven; for it is God’s throne:</li> 
+                    <li>Nor by the earth; for it is his footstool: neither by Jerusalem; for it is the city of the great King.</li>
 
-			<li>Nor by the earth; for it is his footstool: neither by Jerusalem; for it is the city of the great King.</li> 
+                    <li>Neither shalt thou swear by thy head, because thou canst not make one hair white or black.</li>
 
-			<li>Neither shalt thou swear by thy head, because thou canst not make one hair white or black.</li> 
+                    <li>But let your communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil.</li>
 
-			<li>But let your communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil.</li> 
+                    <li>¶Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth:</li>
 
-			<li>¶Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth:</li> 
+                    <li>But I say unto you, That ye resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also.</li>
 
-			<li>But I say unto you, That ye resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also.</li> 
+                    <li>And if any man will sue thee at the law, and take away thy coat, let him have <span class="clarityWord">thy</span> cloak also.</li>
 
-			<li>And if any man will sue thee at the law, and take away thy coat, let him have <em>thy</em> cloak also.</li> 
+                    <li>And whosoever shall compel thee to go a mile, go with him twain.</li>
 
-			<li>And whosoever shall compel thee to go a mile, go with him twain.</li> 
+                    <li>Give to him that asketh thee, and from him that would borrow of thee turn not thou away.</li>
 
-			<li>Give to him that asketh thee, and from him that would borrow of thee turn not thou away.</li> 
+                    <li>¶Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy.</li>
 
-			<li>¶Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy.</li> 
+                    <li>But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;</li>
 
-			<li>But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;</li> 
+                    <li>That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.</li>
 
-			<li>That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.</li> 
+                    <li>For if ye love them which love you, what reward have ye? do not even the publicans the same?</li>
 
-			<li>For if ye love them which love you, what reward have ye? do not even the publicans the same?</li> 
+                    <li>And if ye salute your brethren only, what do ye more <span class="clarityWord">than others?</span> do not even the publicans so?</li>
 
-			<li>And if ye salute your brethren only, what do ye more <em>than others?</em> do not even the publicans so?</li> 
+                    <li class="favorite">Be ye therefore perfect, even as your Father which is in heaven is perfect.</li>
+                </ol>
+            </div>
+        </main>
 
-			<li>Be ye therefore perfect, even as your Father which is in heaven is perfect.</li>
-
-		</ol>
-	</div>
 	</body>
 </html>
