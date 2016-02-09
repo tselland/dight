@@ -15,42 +15,37 @@
 			body {
                 margin: 20px;
                 display: flex;
-                flex-direction: column;
+				flex-direction: row;
                 justify-content: center;
                 text-align: center;
 			}
-
-
-
+			
 			h1 {
 				font-weight: bold;
 				font-size: 42pt;
 				font-family: Montserrat, Arial, sans-serif;
 			}
 			
-			
 			h2 {
 				font-size: 32pt;
 				font-style: italic;
+				margin-bottom: 20px;
 			}
-			
-			
+
 			p {
 				line-height: 1.5;
 				font-style: italic;
 				padding-bottom: 15px;
 				text-align: justify;
 			}
-			
-			
+
 			ol {
 				list-style-type: decimal;
 				list-style-position: inside;
 				line-height: 1.5;
 				margin: 20px 0 0 20px;
 			}
-			
-			
+
 			li {
 				padding-bottom: 10px;
 			}
@@ -62,9 +57,8 @@
 
 			.scripture_text {
                 text-align: left;
+				background-color: #f2f2f2;
 			}
-			
-			/* I used <span class="clarityWord"> to mark "clarity words." These are words that did not exist in the original Hebrew or Greek, but are necessary in English. They are normally italicized in print editions of the King James Bible. */
 			
 			.clarityWord {
 				font-style: italic;
@@ -80,17 +74,20 @@
             }
 
             .chapter_summary {
-                background-color: #f2f2f2;
+                background-color: #aaaaaa;
                 text-align: center;
-                max-width: 600px;
+				border-radius: 3px;
+				box-shadow: 0 0 10px #aaaaaa;
 
 
             }
             main {
                 max-width: 650px;
+				display: flex;
+				flex-direction: column;
+				margin: 20px 0 100px 0;
             }
 		
-			
 		</style>
 	</head>
 	<body>
@@ -101,10 +98,11 @@
             <h1>St. Matthew</h1>
             <div class="chapter_heading">
                 <h2>Chapter 5</h2>
+			</div>
+			
+			<div class="scripture_text">
                 <p class="chapter_summary">Jesus preaches the Sermon on the Mount—Its teachings replace and transcend some aspects of the law of Moses—All are commanded to be perfect like their Father in Heaven.</p>
-            </div>
-
-            <div class="scripture_text">
+    
                 <ol>
 
                     <li>And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him:</li>
