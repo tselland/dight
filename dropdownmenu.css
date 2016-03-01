@@ -1,0 +1,52 @@
+#menu>ul {
+	padding: 25px;
+	margin: 0px auto;
+	background-color: darkblue;
+	color: white;
+}
+#menu>ul>li {
+	float:left ;
+	width: 33.33%;
+	text-align: center;
+}
+
+#menu li>ul {
+	display: none;
+	background-color: lightblue;
+	margin-top: 9px;
+}
+
+#menu li>ul>li {
+	padding: 7px 5px;
+	transition: background-color .5s;
+}
+
+#menu li>ul>li:hover {
+	background-color: blue;
+}
+
+#menu li:hover a {
+	color: white;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+#menu>ul>li:hover>ul {
+	display: block;
+}
+
+#main_content {
+	padding: 300px 50px;
+}
+
+@media screen and (max-width: 500px)
+{
+	#menu>ul>li {
+		float: none;
+		width: 100%;
+	}
+}
