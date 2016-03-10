@@ -1,0 +1,75 @@
+body {
+	font-family: Arial;
+	background-color: #CFC;
+	font-size: 12pt;
+}
+h1,h2,h3 {
+	font-family: monospace;
+	text-align: center;
+	font-weight: bold;
+}
+h1 {
+	font-size: 10vh;
+}
+h2 {
+	font-size: 18pt;
+}
+h3 {
+	font-size: 12pt;
+}
+p {
+	margin-bottom: 18pt;
+}
+
+.container{
+	width: 100%;
+	max-width: 8in;
+	margin: 4px auto 72px auto;
+	background-color: white;
+	border: 1px solid #595;
+	border-radius: 6vmin;
+}
+
+.container::before, .container::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+img {
+	max-width: 100%;
+}
+.row {
+	clear: both;
+}
+.column {
+	float: left;
+}
+
+.one-third {
+	width: calc(100% * 1/3);
+}
+
+.two-third {
+	width: calc(100% * 2/3);
+}
+
+.half {
+	width: calc(100% * 1/2);
+}
+
+.whole {
+	width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	.one-third, .two-third {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.half {
+		width: 100%;
+	}
+}

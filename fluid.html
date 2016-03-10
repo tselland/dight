@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>Fluid Layout</title>
+			<link href="http://nongrat.us/dight/250/tutorials/reset.css" rel="stylesheet" type="text/css" />
+		<style>
+			body {
+				background-color: LightSteelBlue;
+			}
+			h1 {
+				font-family: Verdana, Arial, sans-serif;
+				font-size: 36pt;
+			}
+			h2 {
+				font-family: Verdana, Arial, sans-serif;
+				font-size: 18pt;
+				margin-bottom: 18pt;
+			}
+			p {
+				margin-bottom: 12pt;
+			}
+			#nav {
+				border-left: 1px solid black;
+			}
+			#nav li {
+				padding: 3pt;
+			}
+			#nav a {
+				color: LightSteelBlue;
+				text-decoration: none;
+			}
+			#nav a:hover {
+				color: black;
+				border-bottom: 1px solid LightSteelBlue;
+			}
+			#main_content {
+				max-width: 600px;
+				border: 1px solid black;
+				background-color: white;
+				margin: 0px auto;
+				padding: 12pt;
+			}
+			#nav {
+				float: right;
+				width: 33.33%;
+			}
+			#main_content p {
+				width: 67.66%;
+			}
+			
+			@media screen and (max-width: 600px) {
+				#nav {
+					width: 100%;
+				}
+				#main_content p {
+					width: 100%;
+				}
+				
+				#nav li{
+					float: left;
+				}
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div id="main_content">
+			<h1>Main Headline</h1>
+			<h2>Subhead</h2>
+			<ul id="nav">
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+			</ul>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat elit, rutrum at dolor sed, finibus mattis neque. Sed pellentesque augue et augue iaculis imperdiet. Sed vel neque venenatis, posuere lorem eu, ultrices velit. Phasellus dictum accumsan felis, ac mattis lacus vehicula a. Vestibulum eget nulla felis. Suspendisse potenti. Sed id facilisis urna, sit amet mattis metus. Curabitur at metus mi. Nullam et condimentum odio, eget vulputate sem. Nulla dictum dapibus nunc nec imperdiet. Duis commodo velit vulputate euismod pretium. Etiam congue semper congue. Donec vitae urna commodo, semper enim in, auctor libero. Vivamus posuere porta scelerisque. Suspendisse potenti. Donec vitae scelerisque eros.</p>
+
+			<p>Nulla at tempus mi. In hac habitasse platea dictumst. Integer tincidunt lacus libero, eget rutrum nibh dapibus ut. Curabitur sagittis quam eget scelerisque facilisis. Morbi sodales justo eget pellentesque euismod. Suspendisse purus metus, tempor pretium leo sed, interdum hendrerit risus. Nullam quam lacus, laoreet id metus vel, laoreet bibendum velit. Aenean viverra ultricies massa, nec pellentesque nulla consequat a. Morbi semper varius euismod. Quisque sed elementum sem. Aenean iaculis dui eget augue auctor, in tristique dui ultrices. Maecenas elementum mollis arcu, in elementum risus scelerisque vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam non leo at metus vulputate pretium. Ut vitae sapien auctor augue varius mollis.</p>
+
+			<p>Aenean quis volutpat neque. Praesent ipsum augue, mollis a ipsum sit amet, dictum maximus est. Nunc nisl nisl, euismod eu finibus et, tristique volutpat dui. Aliquam gravida blandit enim vel commodo. Phasellus venenatis tempus finibus. Ut non ex interdum, elementum massa vitae, aliquet nunc. Integer ac nulla nisi. Nullam consequat sed est vel auctor. Aliquam ligula ipsum, tempor nec felis eu, sodales placerat quam. Nulla odio ipsum, lacinia et diam in, gravida pulvinar justo. Proin pharetra elementum scelerisque. In ac finibus ex.</p>
+
+			<p>Donec hendrerit odio eget pulvinar lacinia. Mauris nec felis interdum, malesuada nisl at, eleifend velit. Nulla pharetra, sapien quis porta faucibus, augue nisl euismod dui, id vestibulum odio nisi et nisi. Maecenas ultricies sit amet orci ac pretium. Vivamus sagittis elit vitae feugiat egestas. Proin rutrum lectus felis, at molestie dolor ullamcorper sed. Phasellus libero nibh, venenatis sed leo rutrum, condimentum aliquam ligula. Vestibulum tortor ex, vestibulum a feugiat et, dictum at tortor. Etiam ultrices lorem facilisis eros venenatis convallis.</p>
+
+			<p>Phasellus vel velit vitae neque dictum accumsan. Proin imperdiet sapien non enim varius varius. Fusce nec congue arcu. Etiam rhoncus id dui ut interdum. Fusce blandit facilisis facilisis. Quisque tempor lectus molestie, interdum nisl sit amet, volutpat augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur quis rutrum risus. Phasellus ut efficitur justo. Pellentesque sed felis id ex consequat venenatis vel eu eros.</p>
+		</div>
+	</body>
+</html>
