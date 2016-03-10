@@ -6,6 +6,9 @@ $background3: #333333
 $background4: #808080
 $background5: #1a1a1a
 
+@font-face
+  font-family: 'Montserrat'
+  src: url('fonts/Montserrat-Regular.ttf')
 
 
 /* GENERAL STYLES */
@@ -16,7 +19,7 @@ html
   box-sizing: inherit
 
 body
-  font-family: 'Montserrat', sans-serif
+  font-family: 'Montserrat', Arial, sans-serif
   margin: 0
   background-color: #f9f9f9
   display: flex
@@ -74,6 +77,11 @@ footer
   color: #ffffff
   font-size: small
 
+div
+  margin: 20px
+
+p
+  margin-top: 20px
 
 
 /* NAVIGATION */
@@ -105,6 +113,7 @@ nav
   transition: border-bottom 0.2s ease
   display: inline-block
   text-align: center
+  position: relative
 
 .nav_link:hover
   border-bottom: 2px solid #444444
@@ -167,6 +176,9 @@ nav
 .home_experience
   background-color: $background5
 
+.home_thumb_img
+  max-width: 300px
+
 .home_header
   height: 85vh
   min-height: 400px
@@ -201,6 +213,9 @@ blockquote::before
   font-size: 66px
   font-family: 'Source Code Pro',"Courier New"
   color: #045f8c
+
+blockquote
+  margin-bottom: 20px
 
 
 
@@ -239,18 +254,33 @@ blockquote::before
   flex-direction: row
   justify-content: space-around
 
+
 .footer_link
   color: #ffffff
   text-decoration: none
-  font-size: medium
+  font-size: 16pt
   font-weight: 400
 
 .footer_block
   display: inline-block
+  max-width: 33%
+
+  li
+    margin: 10px 0
+
+  i
+    font-size: 18pt
+
+  img
+    max-width: 150px
 
 
+.footer_h3
+  font-size: 18pt
+  border-bottom: 2px solid #ffffff
 
 /* Underline From Center */
+/* Pulled from hover.css See: http://ianlunn.github.io/Hover/ */
 .underline-from-center
   display: inline-block
   vertical-align: middle
