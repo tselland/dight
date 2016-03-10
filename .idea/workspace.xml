@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1e214a0-29eb-4dda-927d-4c43f159b7ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/adventures.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/attpark.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/cycling.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/msm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/projects.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/workday.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Montserrat-Bold.ttf" afterPath="$PROJECT_DIR$/website/css/fonts/Montserrat-Bold.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Montserrat-Regular.ttf" afterPath="$PROJECT_DIR$/website/css/fonts/Montserrat-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matthew5.html" afterPath="$PROJECT_DIR$/matthew5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/adventures.html" afterPath="$PROJECT_DIR$/website/adventures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/contact.html" afterPath="$PROJECT_DIR$/website/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/basic" afterPath="$PROJECT_DIR$/website/css/basic" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/basic.css" afterPath="$PROJECT_DIR$/website/css/basic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/basic.css.map" afterPath="$PROJECT_DIR$/website/css/basic.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/favorites.html" afterPath="$PROJECT_DIR$/website/favorites.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/about.html" afterPath="$PROJECT_DIR$/website/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/index.html" afterPath="$PROJECT_DIR$/website/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/portfolio.html" afterPath="$PROJECT_DIR$/website/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/resume.html" afterPath="$PROJECT_DIR$/website/resume.html" />
     </list>
     <ignored path="dight.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,10 +37,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.24162">
-              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="132" selection-end-column="9" />
+            <state vertical-scroll-proportion="1.5293297">
+              <caret line="80" column="72" selection-start-line="80" selection-start-column="72" selection-end-line="80" selection-end-column="72" />
               <folding>
-                <marker date="1457585053000" expanded="true" signature="199:213" placeholder="..." />
+                <marker date="1457585765000" expanded="true" signature="199:213" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-31.708334">
+              <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+              <folding>
+                <marker date="1457585553000" expanded="true" signature="200:214" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -158,15 +153,15 @@
         <option value="$PROJECT_DIR$/website/js/instafeed.min.js" />
         <option value="$PROJECT_DIR$/website/projects.html" />
         <option value="$PROJECT_DIR$/website/css/basic.css" />
-        <option value="$PROJECT_DIR$/website/about.html" />
         <option value="$PROJECT_DIR$/matthew5.html" />
         <option value="$PROJECT_DIR$/website/css/basic" />
-        <option value="$PROJECT_DIR$/website/index.html" />
         <option value="$PROJECT_DIR$/website/adventures.html" />
         <option value="$PROJECT_DIR$/website/portfolio.html" />
         <option value="$PROJECT_DIR$/website/favorites.html" />
         <option value="$PROJECT_DIR$/website/resume.html" />
         <option value="$PROJECT_DIR$/website/contact.html" />
+        <option value="$PROJECT_DIR$/website/about.html" />
+        <option value="$PROJECT_DIR$/website/index.html" />
       </list>
     </option>
   </component>
@@ -235,24 +230,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,7 +389,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <marker date="1457585053000" expanded="true" signature="199:213" placeholder="..." />
+            <marker date="1457585765000" expanded="true" signature="199:213" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -422,7 +399,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
           <folding>
-            <marker date="1454602802000" expanded="true" signature="200:214" placeholder="..." />
+            <marker date="1457585553000" expanded="true" signature="200:214" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -506,7 +483,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
           <folding>
-            <marker date="1457585053000" expanded="true" signature="199:213" placeholder="..." />
+            <marker date="1457585765000" expanded="true" signature="199:213" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -516,7 +493,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
           <folding>
-            <marker date="1454602802000" expanded="true" signature="200:214" placeholder="..." />
+            <marker date="1457585553000" expanded="true" signature="200:214" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -534,7 +511,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding>
-            <marker date="1457585053000" expanded="true" signature="199:213" placeholder="..." />
+            <marker date="1457585765000" expanded="true" signature="199:213" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -544,7 +521,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
           <folding>
-            <marker date="1454602802000" expanded="true" signature="200:214" placeholder="..." />
+            <marker date="1457585553000" expanded="true" signature="200:214" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -612,7 +589,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="99" column="61" selection-start-line="99" selection-start-column="61" selection-end-line="99" selection-end-column="61" />
           <folding>
-            <marker date="1454602802000" expanded="true" signature="200:214" placeholder="..." />
+            <marker date="1457585553000" expanded="true" signature="200:214" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -657,7 +634,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
-            <marker date="1457585053000" expanded="true" signature="199:213" placeholder="..." />
+            <marker date="1457585765000" expanded="true" signature="199:213" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -755,16 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
-          <folding>
-            <marker date="1454602802000" expanded="true" signature="200:214" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/css/basic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -844,12 +811,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/website/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.708334">
+          <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+          <folding>
+            <marker date="1457585553000" expanded="true" signature="200:214" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.24162">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="132" selection-end-column="9" />
+        <state vertical-scroll-proportion="1.5293297">
+          <caret line="80" column="72" selection-start-line="80" selection-start-column="72" selection-end-line="80" selection-end-column="72" />
           <folding>
-            <marker date="1457585053000" expanded="true" signature="199:213" placeholder="..." />
+            <marker date="1457585765000" expanded="true" signature="199:213" placeholder="..." />
           </folding>
         </state>
       </provider>
