@@ -29,6 +29,7 @@ header
 
 h1
   text-align: center
+  font-size: 4em
 
 a
   text-decoration: none
@@ -76,6 +77,10 @@ footer
 
 
 /* NAVIGATION */
+nav
+  display: flex
+
+
 .logo
   align-self: flex-start
   padding: 20px 0 0 20px
@@ -85,6 +90,7 @@ footer
 
 .flex_nav
   background-color: $main_color
+  justify-content: flex-end
 
   ul
     display: flex
@@ -169,7 +175,7 @@ footer
   align-content: flex-end
 
 .tagline
-  font: 3em
+  font-size: 1.5em
   text-align: center
 
 .home_quote_container
@@ -282,9 +288,15 @@ blockquote::before
 /* MEDIA STYLES */
 @media all and (max-width: 900px)
 
+  h1
+    font-size: 3em
+
+  .tagline
+    font-size: 1.2em
 
   .home_header
     min-height: 350px
+    height: 60vh
 
     *
       order: 1
@@ -306,6 +318,10 @@ blockquote::before
     align-self: center
 
 @media all and (max-width: 500px)
+
+  h1
+    font-size: 2.5em
+
   .flex_nav
     align-content: center
     li

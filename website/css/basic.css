@@ -19,7 +19,8 @@ header {
   padding: 15px 0 15px 0; }
 
 h1 {
-  text-align: center; }
+  text-align: center;
+  font-size: 4em; }
 
 a {
   text-decoration: none; }
@@ -64,6 +65,9 @@ footer {
   font-size: small; }
 
 /* NAVIGATION */
+nav {
+  display: flex; }
+
 .logo {
   align-self: flex-start;
   padding: 20px 0 0 20px; }
@@ -71,7 +75,8 @@ footer {
     height: 80px; }
 
 .flex_nav {
-  background-color: #2098d1; }
+  background-color: #2098d1;
+  justify-content: flex-end; }
   .flex_nav ul {
     display: flex;
     justify-content: flex-end; }
@@ -150,7 +155,7 @@ footer {
   align-content: flex-end; }
 
 .tagline {
-  font: 3em;
+  font-size: 1.5em;
   text-align: center; }
 
 .home_quote_container {
@@ -248,8 +253,15 @@ blockquote::before {
 
 /* MEDIA STYLES */
 @media all and (max-width: 900px) {
+  h1 {
+    font-size: 3em; }
+
+  .tagline {
+    font-size: 1.2em; }
+
   .home_header {
-    min-height: 350px; }
+    min-height: 350px;
+    height: 60vh; }
     .home_header * {
       order: 1; }
 
@@ -268,6 +280,9 @@ blockquote::before {
     padding: 0;
     align-self: center; } }
 @media all and (max-width: 500px) {
+  h1 {
+    font-size: 2.5em; }
+
   .flex_nav {
     align-content: center; }
     .flex_nav li {
