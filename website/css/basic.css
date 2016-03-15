@@ -306,7 +306,17 @@ blockquote {
 
   .logo {
     padding: 0;
-    align-self: center; } }
+    align-self: center; }
+
+  main {
+    margin: 5em; }
+
+  .footer_column {
+    flex-direction: column; }
+
+  .footer_block {
+    max-width: 70%;
+    align-content: center; } }
 @media all and (max-width: 500px) {
   h1 {
     font-size: 2.5em; }
@@ -318,6 +328,9 @@ blockquote {
     .flex_nav ul {
       display: none; }
 
+  main {
+    margin: 5em 2em; }
+
   .home_header {
     min-height: 275px;
     height: 50vh; }
@@ -326,6 +339,11 @@ blockquote {
     display: block; }
 
   .home_quote_padding {
-    display: none; } }
+    display: none; }
+
+  .footer_column {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around; } }
 
 /*# sourceMappingURL=basic.css.map */

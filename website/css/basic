@@ -347,6 +347,18 @@ blockquote
     padding: 0
     align-self: center
 
+  main
+    margin: 5em
+
+  .footer_column
+    flex-direction: column
+
+  .footer_block
+    max-width: 70%
+    align-content: center
+
+
+
 @media all and (max-width: 500px)
 
   h1
@@ -360,6 +372,8 @@ blockquote
     ul
       display: none
 
+  main
+    margin: 5em 2em
 
   .home_header
     min-height: 275px
@@ -371,7 +385,10 @@ blockquote
   .home_quote_padding
     display: none
 
-
+  .footer_column
+    display: flex
+    flex-direction: column
+    align-content: space-around
 
 
 
