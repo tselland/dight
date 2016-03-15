@@ -161,6 +161,7 @@ nav
   background-color: #ffffff
   transition: all 0.3s
   text-align: center
+  -webkit-flex: 1 1 15em
 
 .home_block:hover
   background-color: lighten($background1, 20%)
@@ -355,7 +356,6 @@ blockquote
 
   .footer_block
     max-width: 70%
-    align-content: center
 
 
 
@@ -389,6 +389,9 @@ blockquote
     display: flex
     flex-direction: column
     align-content: space-around
+
+  .footer_block
+    max-width: 100%
 
 
 

@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1e214a0-29eb-4dda-927d-4c43f159b7ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/about.html" afterPath="$PROJECT_DIR$/website/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/adventures.html" afterPath="$PROJECT_DIR$/website/adventures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/contact.html" afterPath="$PROJECT_DIR$/website/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/basic" afterPath="$PROJECT_DIR$/website/css/basic" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/basic.css" afterPath="$PROJECT_DIR$/website/css/basic.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/basic.css.map" afterPath="$PROJECT_DIR$/website/css/basic.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/favorites.html" afterPath="$PROJECT_DIR$/website/favorites.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/index.html" afterPath="$PROJECT_DIR$/website/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/portfolio.html" afterPath="$PROJECT_DIR$/website/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/resume.html" afterPath="$PROJECT_DIR$/website/resume.html" />
     </list>
     <ignored path="dight.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="basic" pinned="false" current-in-tab="false">
+      <file leaf-file-name="basic" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/css/basic">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.333334">
-              <caret line="375" column="19" selection-start-line="375" selection-start-column="19" selection-end-line="375" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.35055867">
+              <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -115,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5656425">
+            <state vertical-scroll-proportion="-16.875">
               <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
               <folding>
                 <marker date="1458015236000" expanded="true" signature="275:289" placeholder="..." />
@@ -131,8 +123,10 @@
         <entry file="file://$PROJECT_DIR$/website/css/basic.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.083333">
-              <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-              <folding />
+              <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+              <folding>
+                <marker date="1458017480000" expanded="true" signature="6216:6341" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,13 +158,13 @@
         <option value="$PROJECT_DIR$/matthew5.html" />
         <option value="$PROJECT_DIR$/website/css/basic.css" />
         <option value="$PROJECT_DIR$/website/index.html" />
-        <option value="$PROJECT_DIR$/website/css/basic" />
         <option value="$PROJECT_DIR$/website/about.html" />
         <option value="$PROJECT_DIR$/website/adventures.html" />
         <option value="$PROJECT_DIR$/website/portfolio.html" />
         <option value="$PROJECT_DIR$/website/favorites.html" />
         <option value="$PROJECT_DIR$/website/resume.html" />
         <option value="$PROJECT_DIR$/website/contact.html" />
+        <option value="$PROJECT_DIR$/website/css/basic" />
       </list>
     </option>
   </component>
@@ -475,7 +469,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1458017480000" expanded="true" signature="6216:6341" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -589,7 +585,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="267" column="0" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1458017480000" expanded="true" signature="6216:6341" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -682,7 +680,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1458017480000" expanded="true" signature="6216:6341" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -757,16 +757,10 @@
     <entry file="file://$PROJECT_DIR$/website/css/basic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.083333">
-          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/css/basic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.333334">
-          <caret line="375" column="19" selection-start-line="375" selection-start-column="19" selection-end-line="375" selection-end-column="19" />
-          <folding />
+          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+          <folding>
+            <marker date="1458017480000" expanded="true" signature="6216:6341" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -832,11 +826,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5656425">
+        <state vertical-scroll-proportion="-16.875">
           <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
           <folding>
             <marker date="1458015236000" expanded="true" signature="275:289" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/css/basic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35055867">
+          <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

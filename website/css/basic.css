@@ -137,7 +137,8 @@ nav {
   min-width: 350px;
   background-color: #ffffff;
   transition: all 0.3s;
-  text-align: center; }
+  text-align: center;
+  -webkit-flex: 1 1 15em; }
 
 .home_block:hover {
   background-color: #595959; }
@@ -315,8 +316,7 @@ blockquote {
     flex-direction: column; }
 
   .footer_block {
-    max-width: 70%;
-    align-content: center; } }
+    max-width: 70%; } }
 @media all and (max-width: 500px) {
   h1 {
     font-size: 2.5em; }
@@ -344,6 +344,9 @@ blockquote {
   .footer_column {
     display: flex;
     flex-direction: column;
-    align-content: space-around; } }
+    align-content: space-around; }
+
+  .footer_block {
+    max-width: 100%; } }
 
 /*# sourceMappingURL=basic.css.map */
