@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The page's title goes here</title>
+
+</head>
+<body>
+
+	One upon a <span id="singularNoun"></span>, 
+	there was a <span id="adjective"></span> <span id="femalePersonOrAnimal"></span> 
+	who wanted to go to <span id="place"></span>. 
+	Unfortunately, she didn’t have enough <span id="pluralNoun"></span> to <span id="verb"></span>. 
+	So she <span id="pastTenseVerb"></span> her <span id="familyMember"></span> 
+	for a <span id="singularNoun2"></span>. 
+	He gave it to her, and all her <span id="pluralNoun2"></span> came true!
+
+	<script>
+		// Put your JavaScript here.
+		var singularNoun = prompt('Give me a singular noun.');
+		var adjective = prompt('Give me an adjective.');
+		var femalePersonOrAnimal = prompt('Give me a female person or animal.');
+		var place = prompt('Give me a place.');
+		var pluralNoun = prompt('Give me a plural noun.');
+		var verb = prompt('Give me a verb.');
+		var pastTenseVerb = prompt('Give me a past tense verb.');
+		var familyMember = prompt('Give me a family member.');
+		var singularNoun2 = prompt('Give me another singular noun.');
+		var pluralNoun2 = prompt('Give me another plural noun.');
+		
+		
+		document.getElementById('singularNoun').innerHTML = singularNoun;
+		document.getElementById('adjective').innerHTML = adjective;
+		document.getElementById('femalePersonOrAnimal').innerHTML = femalePersonOrAnimal;
+		document.getElementById('place').innerHTML = place;
+		document.getElementById('pluralNoun').innerHTML = pluralNoun;
+		document.getElementById('verb').innerHTML = verb;
+		document.getElementById('pastTenseVerb').innerHTML = pastTenseVerb;
+		document.getElementById('familyMember').innerHTML = familyMember;
+		document.getElementById('singularNoun2').innerHTML = singularNoun2;
+		document.getElementById('pluralNoun2').innerHTML = pluralNoun2;
+		
+
+	</script>
+
+</body>
+</html>
