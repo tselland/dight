@@ -25,10 +25,12 @@ body
   display: flex
   flex-direction: column
 
-header
+.header
   background-color: $main_color
   color: #ffffff
   padding: 15px 0 15px 0
+  display: flex
+  flex-direction: column
 
 h1
   text-align: center
@@ -90,19 +92,22 @@ nav
 
 
 .logo
-  align-self: flex-start
-  padding: 20px 0 0 20px
 
   img
     height: 80px
 
+.logo_nav
+  display: flex
+  align-items: center
+  margin: 0
+
 .flex_nav
   background-color: $main_color
-  justify-content: flex-end
+  justify-content: flex-start
+  margin-left: auto
 
   ul
     display: flex
-    justify-content: flex-end
 
 
   li
@@ -151,6 +156,7 @@ nav
   flex-wrap: wrap
   width: 100%
   margin: 0
+  border: 3px solid $background2
 
   a
     color: #ffffff
@@ -162,20 +168,12 @@ nav
   transition: all 0.3s
   text-align: center
   -webkit-flex: 1 1 15em
+  border: 3px solid $background2
+  background-color: $background1
 
 .home_block:hover
-  background-color: lighten($background1, 20%)
-
-.home_about
-  background-color: $background1
-.home_projects
-  background-color: $background2
-.home_adventures
-  background-color: $background3
-.home_favorites
   background-color: $background4
-.home_experience
-  background-color: $background5
+
 
 .home_thumb_img
   max-width: 300px
@@ -183,9 +181,6 @@ nav
 .home_header
   height: 85vh
   min-height: 400px
-  display: flex
-  flex-direction: column
-  align-content: flex-end
 
 .tagline
   font-size: 1.5em
@@ -314,6 +309,9 @@ blockquote
   left: 0
   right: 0
 
+.logo_mobile
+  display: none
+
 
 
 /* MEDIA STYLES */
@@ -325,15 +323,22 @@ blockquote
   .tagline
     font-size: 1.2em
 
-  .home_header
+  .header
     min-height: 350px
     height: 60vh
 
     *
-      order: 1
+      order: 2
+
+
+  .logo_nav
+    order: 3
+    margin-top: 20px
+    justify-content: center
 
   .flex_nav
-    order: 3
+    margin-left: 0
+
     ul
       flex-wrap: wrap
 
@@ -345,8 +350,15 @@ blockquote
     flex: 6
 
   .logo
+    order: 1
     padding: 0
     align-self: center
+
+  .logo_mobile
+    display: block
+
+  .logo_main
+    display: none
 
   main
     margin: 5em
@@ -366,11 +378,18 @@ blockquote
 
   .flex_nav
     align-content: center
+    flex-direction: column
     li
       flex-basis: 100%
 
     ul
       display: none
+
+    margin: 10px
+
+  .flex_nav:hover ul
+    display: block
+    background-color: $main_color
 
   main
     margin: 5em 2em
@@ -381,6 +400,7 @@ blockquote
 
   .toggle_nav
     display: block
+    min-width: 50%
 
   .home_quote_padding
     display: none
@@ -392,6 +412,9 @@ blockquote
 
   .footer_block
     max-width: 100%
+
+  #instafeed
+    margin: 5px
 
 
 
