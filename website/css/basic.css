@@ -16,10 +16,12 @@ body {
   display: flex;
   flex-direction: column; }
 
-header {
+.header {
   background-color: #2098d1;
   color: #ffffff;
-  padding: 15px 0 15px 0; }
+  padding: 15px 0 15px 0;
+  display: flex;
+  flex-direction: column; }
 
 h1 {
   text-align: center;
@@ -77,18 +79,20 @@ p {
 nav {
   display: flex; }
 
-.logo {
-  align-self: flex-start;
-  padding: 20px 0 0 20px; }
-  .logo img {
-    height: 80px; }
+.logo img {
+  height: 80px; }
+
+.logo_nav {
+  display: flex;
+  align-items: center;
+  margin: 0; }
 
 .flex_nav {
   background-color: #2098d1;
-  justify-content: flex-end; }
+  justify-content: flex-start;
+  margin-left: auto; }
   .flex_nav ul {
-    display: flex;
-    justify-content: flex-end; }
+    display: flex; }
   .flex_nav li {
     padding: 10px; }
 
@@ -128,7 +132,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin: 0; }
+  margin: 0;
+  border: 3px solid #595959; }
   .home_main a {
     color: #ffffff; }
 
@@ -138,35 +143,19 @@ nav {
   background-color: #ffffff;
   transition: all 0.3s;
   text-align: center;
-  -webkit-flex: 1 1 15em; }
-
-.home_block:hover {
-  background-color: #595959; }
-
-.home_about {
+  -webkit-flex: 1 1 15em;
+  border: 3px solid #595959;
   background-color: #262626; }
 
-.home_projects {
-  background-color: #595959; }
-
-.home_adventures {
-  background-color: #333333; }
-
-.home_favorites {
+.home_block:hover {
   background-color: #808080; }
-
-.home_experience {
-  background-color: #1a1a1a; }
 
 .home_thumb_img {
   max-width: 300px; }
 
 .home_header {
   height: 85vh;
-  min-height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end; }
+  min-height: 400px; }
 
 .tagline {
   font-size: 1.5em;
@@ -280,6 +269,9 @@ blockquote {
   left: 0;
   right: 0; }
 
+.logo_mobile {
+  display: none; }
+
 /* MEDIA STYLES */
 @media all and (max-width: 900px) {
   h1 {
@@ -288,14 +280,19 @@ blockquote {
   .tagline {
     font-size: 1.2em; }
 
-  .home_header {
+  .header {
     min-height: 350px;
     height: 60vh; }
-    .home_header * {
-      order: 1; }
+    .header * {
+      order: 2; }
+
+  .logo_nav {
+    order: 3;
+    margin-top: 20px;
+    justify-content: center; }
 
   .flex_nav {
-    order: 3; }
+    margin-left: 0; }
     .flex_nav ul {
       flex-wrap: wrap; }
     .flex_nav li {
@@ -306,8 +303,15 @@ blockquote {
     flex: 6; }
 
   .logo {
+    order: 1;
     padding: 0;
     align-self: center; }
+
+  .logo_mobile {
+    display: block; }
+
+  .logo_main {
+    display: none; }
 
   main {
     margin: 5em; }
@@ -322,11 +326,17 @@ blockquote {
     font-size: 2.5em; }
 
   .flex_nav {
-    align-content: center; }
+    align-content: center;
+    flex-direction: column;
+    margin: 10px; }
     .flex_nav li {
       flex-basis: 100%; }
     .flex_nav ul {
       display: none; }
+
+  .flex_nav:hover ul {
+    display: block;
+    background-color: #2098d1; }
 
   main {
     margin: 5em 2em; }
@@ -336,7 +346,8 @@ blockquote {
     height: 50vh; }
 
   .toggle_nav {
-    display: block; }
+    display: block;
+    min-width: 50%; }
 
   .home_quote_padding {
     display: none; }
@@ -347,6 +358,9 @@ blockquote {
     align-content: space-around; }
 
   .footer_block {
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  #instafeed {
+    margin: 5px; } }
 
 /*# sourceMappingURL=basic.css.map */
