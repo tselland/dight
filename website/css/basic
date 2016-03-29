@@ -396,7 +396,7 @@ blockquote
 
   .home_header
     min-height: 275px
-    height: 50vh
+    height: auto
 
   .toggle_nav
     display: block

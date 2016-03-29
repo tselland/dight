@@ -3,7 +3,7 @@
  */
 
 $(function() {
-    $(".toggle_nav").click(function(){
+    $(".toggle_nav").on('click.menuOpen', function(){
         $(".flex_nav ul").slideToggle();
     });
 
