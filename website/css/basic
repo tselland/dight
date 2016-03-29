@@ -129,7 +129,6 @@ nav
 
 
 .toggle_nav
-  display: none
   text-align: center
   color: #ffffff
   padding: 5px 10px 5px 10px
@@ -398,7 +397,7 @@ blockquote
     min-height: 275px
     height: auto
 
-  .toggle_nav
+  .menu_show
     display: block
     min-width: 50%
 
