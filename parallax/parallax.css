@@ -1,0 +1,60 @@
+/* Basic content formatting */
+.content {
+	background-color: white;
+	max-width: 600px;
+	margin: 36pt auto;
+	padding: 12pt;
+	border: 1px solid green;
+}
+.content p {
+	margin-bottom: 12pt;
+}
+h1 {
+	font-size: 24pt;
+	margin-bottom: 12pt;
+	color: green;
+}
+
+/* Parallax Formatting */
+.parallax {
+	position: fixed; /* SUPER IMPORTANT */
+	top: 0px;
+	z-index: -1;
+	border: 1px solid black;
+	box-shadow: 4px 4px 10px #000;
+}
+.background {
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: purple;
+	/* Pic from https://c2.staticflickr.com/6/5449/8831819396_54acbc932c_h.jpg */
+	background:url(parallax_background.jpg) top center no-repeat; 
+	background-size: 125%;
+}
+.fastScroll {
+	width: 500px;
+	height: 50px;
+	background-color: blue;
+	left: 400px;
+	z-index: 1;
+	margin-top: 1000px; /* Set the starting position with margin, not top. */
+	opacity: .5;
+}
+.slowScroll {
+	width: 1000px;
+	height: 100px;
+	background-color: orange;
+	left: 100px;
+	margin-top: 500px;
+	opacity: .5;
+}
+.reverseScroll {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border-radius: 100px;
+	left: 0px;
+	margin-top: 0px; /* Set the starting position with margin, not top. */
+}
