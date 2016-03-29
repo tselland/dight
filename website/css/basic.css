@@ -332,11 +332,8 @@ blockquote {
     .flex_nav li {
       flex-basis: 100%; }
     .flex_nav ul {
-      display: none; }
-
-  .flex_nav:hover ul {
-    display: block;
-    background-color: #2098d1; }
+      display: none;
+      background-color: #2098d1; }
 
   main {
     margin: 5em 2em; }

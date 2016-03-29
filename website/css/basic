@@ -384,12 +384,11 @@ blockquote
 
     ul
       display: none
+      background-color: $main_color
 
     margin: 10px
 
-  .flex_nav:hover ul
-    display: block
-    background-color: $main_color
+
 
   main
     margin: 5em 2em

@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1e214a0-29eb-4dda-927d-4c43f159b7ef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/img/logo4.png" afterPath="$PROJECT_DIR$/website/img/logo4.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/about.html" afterPath="$PROJECT_DIR$/website/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/adventures.html" afterPath="$PROJECT_DIR$/website/adventures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/contact.html" afterPath="$PROJECT_DIR$/website/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/basic" afterPath="$PROJECT_DIR$/website/css/basic" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/basic.css" afterPath="$PROJECT_DIR$/website/css/basic.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/basic.css.map" afterPath="$PROJECT_DIR$/website/css/basic.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/favorites.html" afterPath="$PROJECT_DIR$/website/favorites.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/index.html" afterPath="$PROJECT_DIR$/website/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/portfolio.html" afterPath="$PROJECT_DIR$/website/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/resume.html" afterPath="$PROJECT_DIR$/website/resume.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/js/script.js" afterPath="$PROJECT_DIR$/website/js/script.js" />
     </list>
     <ignored path="dight.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,133 +27,113 @@
     <favorites_list name="dight" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="basic" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/css/basic">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.2156863">
-                  <caret line="325" column="3" selection-start-line="325" selection-start-column="3" selection-end-line="325" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-17.5">
-                  <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-                  <folding>
-                    <marker date="1458522542000" expanded="true" signature="272:286" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/about.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.5">
-                  <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="22" />
-                  <folding>
-                    <marker date="1458522542000" expanded="true" signature="273:287" placeholder="..." />
-                    <marker date="1458522542000" expanded="true" signature="1193:1969" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="adventures.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/adventures.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.0">
-                  <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-                  <folding>
-                    <marker date="1458522944000" expanded="true" signature="278:292" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/portfolio.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.75">
-                  <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-                  <folding>
-                    <marker date="1458523054000" expanded="true" signature="276:290" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="favorites.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/favorites.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.375">
-                  <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-                  <folding>
-                    <marker date="1458523555000" expanded="true" signature="277:291" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/resume.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-13.75">
-                  <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-                  <folding>
-                    <marker date="1458523652000" expanded="true" signature="274:288" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/website/contact.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5656425">
-                  <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-                  <folding>
-                    <marker date="1458523706000" expanded="true" signature="275:289" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="basic.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/website/css/basic.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="366" column="0" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/website/about.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7122905">
-                  <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
-                  <folding>
-                    <marker date="1458522542000" expanded="true" signature="273:287" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="basic" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website/css/basic">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33236575">
+              <caret line="325" column="9" selection-start-line="325" selection-start-column="3" selection-end-line="325" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6470587">
+              <caret line="12" column="93" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
+              <folding>
+                <marker date="1459220813000" expanded="true" signature="272:286" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="22" />
+              <folding>
+                <marker date="1458522542000" expanded="true" signature="273:287" placeholder="..." />
+                <marker date="1458522542000" expanded="true" signature="1193:1969" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adventures.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/adventures.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <folding>
+                <marker date="1458522944000" expanded="true" signature="278:292" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/portfolio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding>
+                <marker date="1458523054000" expanded="true" signature="276:290" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favorites.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/favorites.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+              <folding>
+                <marker date="1458523555000" expanded="true" signature="277:291" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/resume.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <folding>
+                <marker date="1458523652000" expanded="true" signature="274:288" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+              <folding>
+                <marker date="1458523706000" expanded="true" signature="275:289" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -186,13 +160,14 @@
         <option value="$PROJECT_DIR$/matthew5.html" />
         <option value="$PROJECT_DIR$/website/css/basic.css" />
         <option value="$PROJECT_DIR$/website/about.html" />
-        <option value="$PROJECT_DIR$/website/index.html" />
-        <option value="$PROJECT_DIR$/website/css/basic" />
         <option value="$PROJECT_DIR$/website/adventures.html" />
         <option value="$PROJECT_DIR$/website/portfolio.html" />
         <option value="$PROJECT_DIR$/website/favorites.html" />
         <option value="$PROJECT_DIR$/website/resume.html" />
         <option value="$PROJECT_DIR$/website/contact.html" />
+        <option value="$PROJECT_DIR$/website/css/basic" />
+        <option value="$PROJECT_DIR$/website/index.html" />
+        <option value="$PROJECT_DIR$/website/js/script.js" />
       </list>
     </option>
   </component>
@@ -232,7 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,13 +254,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,20 +382,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/website/css/basic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <marker date="1458522542000" expanded="true" signature="272:286" placeholder="..." />
+            <marker date="1459220813000" expanded="true" signature="272:286" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -514,7 +481,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
           <folding>
-            <marker date="1458522542000" expanded="true" signature="272:286" placeholder="..." />
+            <marker date="1459220813000" expanded="true" signature="272:286" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -543,7 +510,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding>
-            <marker date="1458522542000" expanded="true" signature="272:286" placeholder="..." />
+            <marker date="1459220813000" expanded="true" signature="272:286" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -668,7 +635,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
-            <marker date="1458522542000" expanded="true" signature="272:286" placeholder="..." />
+            <marker date="1459220813000" expanded="true" signature="272:286" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -778,46 +745,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/css/basic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="366" column="0" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <marker date="1458522542000" expanded="true" signature="273:287" placeholder="..." />
-            <marker date="1458522542000" expanded="true" signature="1193:1969" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-          <folding>
-            <marker date="1458522542000" expanded="true" signature="272:286" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/css/basic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2156863">
-          <caret line="325" column="3" selection-start-line="325" selection-start-column="3" selection-end-line="325" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/adventures.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding>
             <marker date="1458522944000" expanded="true" signature="278:292" placeholder="..." />
@@ -827,7 +757,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
             <marker date="1458523054000" expanded="true" signature="276:290" placeholder="..." />
@@ -837,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/favorites.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <marker date="1458523555000" expanded="true" signature="277:291" placeholder="..." />
@@ -847,7 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
             <marker date="1458523652000" expanded="true" signature="274:288" placeholder="..." />
@@ -857,11 +787,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5656425">
+        <state vertical-scroll-proportion="-16.875">
           <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <marker date="1458523706000" expanded="true" signature="275:289" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/css/basic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8743017">
+          <caret line="366" column="0" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1458522542000" expanded="true" signature="273:287" placeholder="..." />
+            <marker date="1458522542000" expanded="true" signature="1193:1969" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6470587">
+          <caret line="12" column="93" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
+          <folding>
+            <marker date="1459220813000" expanded="true" signature="272:286" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/css/basic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33236575">
+          <caret line="325" column="9" selection-start-line="325" selection-start-column="3" selection-end-line="325" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
