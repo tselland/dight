@@ -102,6 +102,9 @@ nav
   align-items: center
   margin: 0
 
+.menu_show
+  display: none
+
 .flex_nav
   background-color: $main_color
   justify-content: flex-start
