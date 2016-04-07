@@ -3,10 +3,10 @@
  */
 
 $(function() {
-    $(".menu_show").on('click.menuOpen', function(){
-        $(".flex_nav ul").slideDown().addClass("menu_show");
+    $(".toggle_nav").on('click.menuOpen', function(){
+        $(".flex_nav ul").slideDown();
     }, function(){
-        $(".flex_nav ul").slideDown().removeClass("menu_show");
+        $(".flex_nav ul").slideUp();
     });
 
     $("header h1").fadeIn(1000);
