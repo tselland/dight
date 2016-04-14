@@ -88,9 +88,6 @@ nav {
   align-items: center;
   margin: 0; }
 
-.menu_show {
-  display: none; }
-
 .flex_nav {
   background-color: #2098d1;
   justify-content: flex-start;
@@ -114,6 +111,7 @@ nav {
   border-bottom: 2px solid #ffffff; }
 
 .toggle_nav {
+  display: none;
   text-align: center;
   color: #ffffff;
   padding: 5px 10px 5px 10px;
@@ -136,18 +134,19 @@ nav {
   flex-wrap: wrap;
   width: 100%;
   margin: 0;
-  justify-content: center; }
+  border: 3px solid #595959; }
   .home_main a {
-    color: #262626; }
+    color: #ffffff; }
 
 .home_block {
-  width: 350px;
+  flex: 1;
+  min-width: 350px;
+  background-color: #ffffff;
   transition: all 0.3s;
   text-align: center;
-  border: 1px solid #595959;
-  background-color: #e6e6e6;
-  border-radius: 20px;
-  margin: 10px; }
+  -webkit-flex: 1 1 15em;
+  border: 3px solid #595959;
+  background-color: #262626; }
 
 .home_block:hover {
   background-color: #808080; }
@@ -189,8 +188,6 @@ blockquote::before {
 
 blockquote {
   margin-bottom: 20px; }
-  blockquote p {
-    font-size: 2vw; }
 
 .img_container {
   display: flex;
@@ -278,6 +275,18 @@ blockquote {
 .logo_mobile {
   display: none; }
 
+.instafeed_caption {
+  background-color: rgba(38, 38, 38, 0.5);
+  color: white;
+  margin: 0;
+  display: none; }
+
+.adventure_img {
+  height: 200px; }
+
+.favorites_img, .resume_img {
+  height: 100px; }
+
 /* MEDIA STYLES */
 @media all and (max-width: 900px) {
   h1 {
@@ -291,9 +300,6 @@ blockquote {
     height: 60vh; }
     .header * {
       order: 2; }
-
-  blockquote p {
-    font-size: 14pt; }
 
   .logo_nav {
     order: 3;
@@ -349,9 +355,9 @@ blockquote {
 
   .home_header {
     min-height: 275px;
-    height: auto; }
+    height: 50vh; }
 
-  .menu_show {
+  .toggle_nav {
     display: block;
     min-width: 50%; }
 

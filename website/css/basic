@@ -102,9 +102,6 @@ nav
   align-items: center
   margin: 0
 
-.menu_show
-  display: none
-
 .flex_nav
   background-color: $main_color
   justify-content: flex-start
@@ -132,6 +129,7 @@ nav
 
 
 .toggle_nav
+  display: none
   text-align: center
   color: #ffffff
   padding: 5px 10px 5px 10px
@@ -159,21 +157,20 @@ nav
   flex-wrap: wrap
   width: 100%
   margin: 0
-  justify-content: center
+  border: 3px solid $background2
 
   a
-    color: $background1
+    color: #ffffff
 
 .home_block
-
-  width: 350px
+  flex: 1
+  min-width: 350px
+  background-color: #ffffff
   transition: all 0.3s
   text-align: center
-
-  border: 1px solid $background2
-  background-color: #e6e6e6
-  border-radius: 20px
-  margin: 10px
+  -webkit-flex: 1 1 15em
+  border: 3px solid $background2
+  background-color: $background1
 
 .home_block:hover
   background-color: $background4
@@ -218,9 +215,6 @@ blockquote::before
 
 blockquote
   margin-bottom: 20px
-
-  p
-    font-size: 2vw
 
 
 
@@ -322,6 +316,21 @@ blockquote
   display: none
 
 
+.instafeed_caption
+  background-color: rgba(38,38,38, 0.5)
+  color: white
+  margin: 0
+  display: none
+
+.adventure_img
+  height: 200px
+
+.favorites_img, .resume_img
+  height: 100px
+
+
+
+
 
 /* MEDIA STYLES */
 @media all and (max-width: 900px)
@@ -339,9 +348,6 @@ blockquote
     *
       order: 2
 
-  blockquote
-    p
-      font-size: 14pt
 
   .logo_nav
     order: 3
@@ -407,9 +413,9 @@ blockquote
 
   .home_header
     min-height: 275px
-    height: auto
+    height: 50vh
 
-  .menu_show
+  .toggle_nav
     display: block
     min-width: 50%
 
