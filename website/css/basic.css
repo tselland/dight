@@ -54,7 +54,7 @@ table {
 
 input {
   box-shadow: none;
-  width: 10em;
+  width: 30em;
   padding: 10px;
   border: solid 1px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s; }
@@ -63,6 +63,10 @@ input:focus {
   outline: none;
   border: solid 1px #707070;
   box-shadow: 0 0 5px 1px #969696; }
+
+textarea {
+  min-width: 30em;
+  min-height: 10em; }
 
 footer {
   padding: 30px 0 10px 0;
@@ -187,7 +191,18 @@ blockquote::before {
   color: #045f8c; }
 
 blockquote {
-  margin-bottom: 20px; }
+  margin-top: 20px; }
+
+.contact_all {
+  display: flex; }
+
+.contact_headshot {
+  width: 267px; }
+
+.contact_info {
+  float: left;
+  display: flex;
+  flex-direction: column; }
 
 .img_container {
   display: flex;
@@ -281,7 +296,7 @@ blockquote {
   margin: 0;
   display: none; }
 
-.adventure_img {
+.adventure_img, .project_img {
   height: 200px; }
 
 .favorites_img, .resume_img {

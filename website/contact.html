@@ -49,53 +49,61 @@
 
     <article class="article_main">
         <h2>Contact Information</h2>
-        <p>Here's how to contact me</p>
-        <table>
-            <tr>
-                <th>PHONE</th>
-                <td>925-998-3445</td>
-            </tr>
-            <tr>
-                <th>EMAIL</th>
-                <td>travisselland@gmail.com</td>
-            </tr>
-            <tr>
-                <th>SOCIAL</th>
-                <td>
-                    <a href="http://facebook.com/tselland" title="Facebook | Travis Selland" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
-                    <a href="http://twitter.com/travis_selland" title="Twitter | Travis Selland" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-                    <a href="https://plus.google.com/u/0/+TravisSelland/about/p/pub" title="Google+ | Travis Selland" target="_blank"><i class="fa fa-google-plus"></i> Google+</a>
-                    <a href="http://instagram.com/travis_selland" title="Instagram | Travis Selland" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
-                </td>
-            </tr>
+        <div class="contact_all">
+
+            <img class="contact_headshot" src="img/headshot.jpg" alt="Travis Selland">
+            <div class="contact_info">
+                <p>Here's how to contact me</p>
+                <table>
+                    <tr>
+                        <th>PHONE</th>
+                        <td>925-998-3445</td>
+                    </tr>
+                    <tr>
+                        <th>EMAIL</th>
+                        <td>travisselland@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th>SOCIAL</th>
+                        <td>
+                            <a href="http://facebook.com/tselland" title="Facebook | Travis Selland" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
+                            <a href="http://twitter.com/travis_selland" title="Twitter | Travis Selland" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+                            <a href="https://plus.google.com/u/0/+TravisSelland/about/p/pub" title="Google+ | Travis Selland" target="_blank"><i class="fa fa-google-plus"></i> Google+</a>
+                            <a href="http://instagram.com/travis_selland" title="Instagram | Travis Selland" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
+                        </td>
+                    </tr>
 
 
-        </table>
+                </table>
+            </div>
+        </div>
 
         <h2>Submit your thoughts</h2>
         <p>If you would prefer to input your thoughts now, feel free to use the form below.</p>
-        <form>
-            <ul class="input_form ">
-                <li>
-                    First name:<br>
-                    <input type="text" name="firstname"><br>
-                </li>
-                <li>
-                    Last name:<br>
-                    <input type="text" name="lastname"><br>
-                </li>
-                <li>
-                    E-mail:<br>
-                    <input type="email" name="email"><br>
-                </li>
-                <li>
-                    Thoughts:<br>
-                    <input type="text" name="thoughts" class="large_input"><br><br>
-                </li>
-                <li>
-                    <input type="submit" value="Submit">
-                </li>
-            </ul>
+        <p><i>(This form is not yet functional)</i></p>
+        <form action="send.php" name="contactform" method="post" enctype="text/plain">
+            <table class="input_form ">
+                <tr>
+                    <td><label for="first_name">First Name:</label></td>
+                    <td><input type="text" name="first_name"></td>
+                </tr>
+                <tr>
+                    <td><label for="last_name">Last Name:</label></td>
+                    <td><input type="text" name="last_name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="thoughts">Thoughts:</label></td>
+                    <td><textarea type="text" name="thoughts" class="large_input"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" id="submit" value="Send Thoughts" disabled></td>
+                </tr>
+            </table>
 
         </form>
 
@@ -110,8 +118,9 @@
         </div>
         <div class="footer_block">
             <h3 class="footer_h3">Social Media</h3>
-            <p><i class="fa fa-twitter"></i>Reasons to follow me on twitter</p>
-            <p><i class="fa fa-github"></i>Reasons to follow me on github</p>
+            <p><a href="http://twitter.com/travis_selland" class="footer_link"><i class="fa fa-twitter"></i> Tweet much?</a></p>
+            <p><a href="http://github.com/tselland/" class="footer_link"><i class="fa fa-github"></i> Code</a></p>
+
         </div>
         <div class="footer_block">
             <h3 class="footer_h3">Navigation Links</h3>
